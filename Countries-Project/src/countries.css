@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Righteous', cursive;
+}
+/** HEADER **/
+#header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height:75px;
+  z-index: 2;
+}
+#author_email {
+  color: rgb(111,109,109);
+  margin-right: 10px;
+  font-style: normal;
+}
+/** Page Title **/
+#title_header {
+  display: flex;
+  top: 0;
+  height: 30px;
+  width: 100vw;
+  visibility: visible;
+  align-items: center;
+  padding: 5px 0 5px 5px;
+  justify-content: space-between;
+  font-weight:
+}
+#title_header span{
+  display: flex;
+  align-items: center;
+}
+img {
+  vertical-align: middle;
+}
+#page_title {
+  padding-left: 10px;
+  font-size:1.2em;
+}
+#globe_photo {
+  height:  30px;
+  width: 30px;
+}
+/** Search Area in Header **/
+#search_header {
+  display: flex;
+  flex-direction: row;
+  top: 50px;
+  width: 100vw;
+  height: 35px;
+}
+.search_button {
+  height: 100%;
+  background-color:lightgray;
+  font-size: .8em;
+  cursor: pointer;
+}
+#search {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 35px;
+  position: fixed;
+  background-color: rgb(114,90,67);
+  justify-content: space-between;
+}
+#search_area {
+  margin-left: 10px;
+  width: 25vw;
+}
+#dropdown_search {
+  visibility: hidden;
+}
+#show_wiki {
+  margin-right: 10px;
+}
+#wiki_checkbox {
+  width: 15px;
+  right: 0;
+  margin-right: 5px;
+}
+/** FOOTER **/
+#footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 2;
+}
+#copy {
+  margin-left:10px;
+  color: rgb(111,109,109);
+  font-size: .9em;
+}
+
+.creamColor {
+  background-color: rgb(254,244,202);
+}
+#container {
+  padding: 25px 20px 25px 20px;
+  top: 75px;
+  width: 100vw;
+  height: 5000px;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  background-image: url("../assets/tan_rock.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  z-index: 1;
+}
+/** DYNAMIC CSS **/
+.tableBold {
+  font-weight: bold;
+}
+.countryName {
+  font-weight:bold;
+}

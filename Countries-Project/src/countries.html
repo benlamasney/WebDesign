@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>The Sophisticated Globalist</title>
+      <link rel="stylesheet" type="text/css" href="countries.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+      <script src="countries.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <header id='header'>
+        <div id='title_header' class='creamColor'>
+          <span>
+            <img id='globe_photo' src='../assets/earth.png' alt='A picture of earth'>
+            <span id='page_title'>The Sophisticated Globalist</span>
+          </span>
+          <address id='author_email'>jdoe@uwlax.edu</address>
+        </div>
+        <div id='search_header'>
+          <form id='search' onsubmit="searchClicked" method='GET'>
+            <span id='search_bar'>
+              <input id='search_area' type="text" placeholder="Country name (or partial name)"/>
+              <span id='search_button_search' class='search_button'>Search</span>
+              <span id='dropdown_search' isvisible='false'><!-- Dynamic dropdown --></span>
+            </span>
+            <span id='show_wiki'>
+              <input id='wiki_checkbox' type="checkbox" name='choice' onclick="showWiki()"/>
+              <label for='wiki_radio'>show wiki links</label>
+            </span>
+          </form>
+        </div>
+      </header>
+      <div id='container'><!-- Dynamic Content --></div>
+      <footer id='footer' class='creamColor'>
+        <span id='copy'>&copyCountries Inc.</span>
+      </footer>
+  </body>
+
+<html>
