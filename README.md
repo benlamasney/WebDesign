@@ -1,2 +1,2 @@
 # WebDesign
-Display of my current skill set for Web Design
+Projects I worked on in my Web Design Basics course.
