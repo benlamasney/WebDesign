@@ -1,0 +1,239 @@
+body {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin: 0;
+}
+header > nav.main-page-nav{
+  background-color: rgb(230,120,10);
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 0px green;
+  border-bottom: 1px solid rgb(122,109,2);
+}
+nav.main-page-nav li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+nav.main-page-nav li > a {
+  text-decoration: none;
+  color:black;
+  text-transform: uppercase;
+  font: .6em "Crimson", serif;
+}
+span.first-letter{
+  font: 1.4em "Crimson", serif;
+  font-weight: 400;
+}
+nav.main-page-nav a.bigE {
+  font-size: 1.2em;
+  border-radius: 50%;
+  width : 15px;
+  height: 15px;
+  background-color: black;
+  color: white;
+  padding-right: 8px;
+  padding-left: 6px;
+  margin-right: 4px;
+  font-family: 'Parisienne', cursive;
+}
+nav.main-page-nav a.bigE + a{
+  font-family: 'Parisienne', cursive;
+  text-transform: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+nav.main-page-nav a.bigE:hover{
+  color: black;
+  background-color: white;
+}
+nav.main-page-nav li > a.aWhite:hover {
+  color: white;
+}
+#page-container {
+  position: relative;
+  display: flex;
+}
+#content-wrap {
+  background-image:  url("assets/food.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+  padding: 2px 0 2px 0;
+  font-family: "Lusitana", serif;
+  border-bottom: 1px solid rgb(160,160,160);
+}
+#content-wrap h1 {
+  margin: 0;
+  padding: 20px 0 0 20px;
+}
+#content-wrap h1 + h1{
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+#navlist {
+  padding-left: 5px;
+}
+#footer {
+  font-family: "Lusitana", serif;
+  background-color: rgb(230,120,10);
+  position:fixed;
+  width: 100vw;
+  bottom: 0;
+  min-height: 100px;            /* Footer height */
+  border-top: 3px solid black;
+  display: block;
+}
+#footer div#footer-inline {
+  font-family: "Lusitana", serif;
+  background-color: rgb(230,120,10);
+  padding-left: 5px;
+  position:fixed;
+  width: 100vw;
+  bottom: 25px;
+  min-height: 100px;            /* Footer height */
+  border-top: 3px solid black;
+  display: flex;
+}
+#recipe-wrap{
+  width: 100vw;
+  height: 40vh;
+  padding: 20px 0 0 20px;
+  margin-bottom:100px;
+}
+div.recipe-card {
+  position: relative;
+  display: inline-block;
+  width: 25vw;
+  min-height: 260px;
+  min-width: 100px;
+  max-width: 300px;
+  border: 1px solid rgb(160,160,160);
+  padding: 15px;
+  margin: 5px;
+  vertical-align: top;
+  text-align: center;
+  background-color: rgb(235,235,235);
+}
+div[class*="image"] {
+  width: 20vw;
+  height: 20vw;
+  top: 0;
+  box-shadow: 3px 3px 5px rgb(42,42,42);
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div[class*="image"]:hover {
+  filter: saturate(120%) brightness(140%);
+}
+div.lobster-image {
+  background-image: url("assets/lobster.jpg");
+}
+div.pancakes-image {
+  background-image: url("assets/pancakes.jpg");
+}
+div.ramen-image {
+  background-image: url("assets/ramen.jpg");
+}
+div.tea-image {
+  background-image: url("assets/tea.jpg");
+}
+p[class*="description"] {
+  text-align: center;
+  bottom: 0;
+  font-size: .8em;
+  padding-bottom: 15px;
+}
+.button-container {
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  margin-top: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 20vw;
+  border: 1px solid black;
+  background-color: rgb(230,120,10);
+}
+.button-container:hover {
+  filter: brightness(60%);
+}
+.button-container a {
+  text-decoration: none;
+  color:black;
+}
+#footer_fix {
+  width:100vw;
+  height:200px;
+}
+#recipe-title h1 {
+  padding-left: 5px;
+  font-size: 1.3em;
+  font-family: "Lusitana", serif;
+  margin: 0;
+}
+#mission {
+  margin-right: 10px;
+  padding: 10px 5px 5px 5px;
+  width: 45vw;
+}
+#mission h1{
+  font-size: .8em;
+  margin: 0;
+
+}
+#mission p{
+  margin: 0;
+  font-size: .6em;
+}
+#socialmedia {
+  margin: 0;
+  width: 40vw;
+}
+#socialmedia h1 {
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-size: .8em;
+}
+#medialinks li{
+  list-style-type: none;
+  display: inline;
+  flex-wrap: wrap;
+  margin: 3px 5px 3px 5px;
+}
+#medialinks i:hover {
+  color: rgb(14, 0, 255);
+}
+#copy {
+  position: absolute;
+  bottom:0;
+  display: block;
+  background-color: black;
+  width: 100vw;
+  height: 25px;
+  text-align: center;
+}
+#copy p {
+  color: gray;
+  font-family: "Lusitana", serif;
+  font-size: .6em;
+  padding-top: 7px;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+  cursor: pointer;
+}
